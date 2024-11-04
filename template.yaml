@@ -20,11 +20,7 @@ Resources:
       Runtime: nodejs20.x
       AutoPublishAlias: live
       DeploymentPreference:
-<<<<<<< HEAD
           Type: Canary10Percent5Minutes
-=======
-        Type: Canary10Percent5Minutes
->>>>>>> origin/main
       Architectures:
           - x86_64
       Events:
@@ -34,8 +30,7 @@ Resources:
             Path: /hello
             Method: get
 
-Outputs:
-  # ServerlessRestApi is an implicit API created out of Events key under Serverless::Function
+
   # Find out more about other implicit resources you can reference within SAM
   # https://github.com/awslabs/serverless-application-model/blob/master/docs/internals/generated_resources.rst#api
   HelloWorldApi:

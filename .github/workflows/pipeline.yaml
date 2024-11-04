@@ -45,8 +45,6 @@ jobs:
           cd hello-world
           npm install
           npm run test
-
-
   delete-feature:
     if: startsWith(github.event.ref, 'feature') && github.event_name == 'delete'
     runs-on: ubuntu-latest
